@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("drivers")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin(origins = {"http://localhost:3000/", "https://grilo16.github.io/"})
 public class DriverController {
 
     private DriverService driverService;
